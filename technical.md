@@ -9,7 +9,15 @@ Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explo
 
 <details>
   <summary>Useless breakdown of the command</summary>
-  * `-Path`: Specifies path to the key/item property
-  * `-Name`: Specifies name of the key/item property
-  * `-Force`: Forces the deletion
+  `-Path`: Specifies path to the key/item property
+  <br/>
+  `-Name`: Specifies name of the key/item property
+  <br/>
+  `-Force`: Forces the deletion
 </details>
+
+## Restrting Windows Explorer
+The effects only happen when restarting Explorer.
+```powershell
+Restart-Process -Name explorer -Force
+```
