@@ -1,6 +1,8 @@
 # NoStartBackUp
 Removes the "Start back-up" button in the address bar of File Explorer.
 
+[technical.md](Technical Details)
+
 ## Instructions
 1. Right click [this link](https://raw.githubusercontent.com/WindowsOclock/NoStartBackup/main/NoStartBackup.ps1) and click "Save link as..."
 2. Open the directory where it is stored
